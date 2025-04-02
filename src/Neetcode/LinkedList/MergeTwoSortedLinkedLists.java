@@ -1,5 +1,8 @@
 package Neetcode.LinkedList;
 
+import static Neetcode.LinkedList.ListNodeUtil.fromArray;
+import static Neetcode.LinkedList.ListNodeUtil.printList;
+
 public class MergeTwoSortedLinkedLists {
     public static void main(String[] args) {
         int[] values = {1, 2, 4};
