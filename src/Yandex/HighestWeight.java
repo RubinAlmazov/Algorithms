@@ -14,8 +14,6 @@ public class HighestWeight {
 
         int[] weights = IntStream.range(0,N).
                 map(i -> scan.nextInt()).
-                boxed().
-                mapToInt(Integer::intValue).
                 toArray();
 
         Arrays.sort(weights);
