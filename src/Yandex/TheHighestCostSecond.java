@@ -29,6 +29,7 @@ public class TheHighestCostSecond {
                     }
                     else {
                         dp[i][w] = Math.max(dp[i-1][w],value[i-1]+dp[i - 1][w - mass[i - 1]]);
+                        System.out.println(dp[i][w]);
                     }
                 }
             }
